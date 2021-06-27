@@ -197,7 +197,7 @@ inexpensive_loans = []
 
 for loan in loans:
     loan_price = loan["loan_price"]
-    if loan_price <= 500:
+    if loan_price < 500:
         inexpensive_loans.append(loan)
 
 
