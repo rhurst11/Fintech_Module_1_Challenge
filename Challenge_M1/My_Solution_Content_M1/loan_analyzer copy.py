@@ -203,7 +203,7 @@ for loan in loans:
 
 # @TODO: Print the `inexpensive_loans` list
 
-print(f"The loans of $500 or less are: ${inexpensive_loans}")
+print(f"The loans of less than $500 are: ${inexpensive_loans}")
 
 print("PART 5 OF CHALLENGE")
 
